@@ -18,6 +18,7 @@ const Request = {
   },
   Account: {
     menus() {
+      return Ajax.get('/view/leftList');
     }
   },
   Login: {
